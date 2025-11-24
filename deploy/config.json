@@ -1,0 +1,53 @@
+{
+    "log_path": "infernet_node.log",
+    "server": {
+        "port": 4000,
+        "rate_limit": {
+            "num_requests": 100,
+            "period": 100
+        }
+    },
+    "chain": {
+        "enabled": true,
+        "trail_head_blocks": 3,
+        "rpc_url": "https://lb.drpc.live/base/AhtRu-KKvEqhltBPZfL2v7C9YuMRwC0R8JHqQmlfqV1j",
+        "registry_address": "0x3B1554f346DFe5c482Bb4BA31b880c1C18412170",
+        "wallet": {
+          "max_gas_limit": 4000000,
+          "private_key": "0x575483b681bdb31ae146aa3fe3f307b83cee557fc0432e5590787ebaf1e639ac",
+          "allowed_sim_errors": []
+        },
+        "snapshot_sync": {
+          "sleep": 3,
+          "batch_size": 50,
+          "starting_sub_id": 263058,
+          "sync_period": 30
+        }
+    },
+    "startup_wait": 1.0,
+    "docker": {
+        "username": "hubert666888",
+        "password": "85812245"
+    },
+    "redis": {
+        "host": "redis",
+        "port": 6379
+    },
+    "forward_stats": true,
+    "containers": [
+        {
+            "id": "hello-world",
+            "image": "ritualnetwork/hello-world-infernet:latest",
+            "external": true,
+            "port": "3001",
+            "allowed_delegate_addresses": [],
+            "allowed_addresses": [],
+            "allowed_ips": [],
+            "command": "--bind=0.0.0.0:3001 --workers=2",
+            "env": {},
+            "volumes": [],
+            "accepted_payments": {},
+            "generates_proofs": false
+        }
+    ]
+}
