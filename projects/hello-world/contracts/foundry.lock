@@ -1,0 +1,50 @@
+{
+  "../../gpt4/contracts/lib/forge-std": {
+    "rev": "52715a217dc51d0de15877878ab8213f6cbbbab5"
+  },
+  "../../gpt4/contracts/lib/infernet-sdk": {
+    "rev": "8e6cd6f5cbd66dc9baacb895a2ed8fe2c9ee3b6f"
+  },
+  "../../onnx-iris/contracts/lib/forge-std": {
+    "rev": "52715a217dc51d0de15877878ab8213f6cbbbab5"
+  },
+  "../../onnx-iris/contracts/lib/infernet-sdk": {
+    "rev": "8e6cd6f5cbd66dc9baacb895a2ed8fe2c9ee3b6f"
+  },
+  "../../payment/contracts/lib/forge-std": {
+    "rev": "52715a217dc51d0de15877878ab8213f6cbbbab5"
+  },
+  "../../payment/contracts/lib/infernet-sdk": {
+    "rev": "8e6cd6f5cbd66dc9baacb895a2ed8fe2c9ee3b6f"
+  },
+  "../../prompt-to-nft/contracts/lib/forge-std": {
+    "rev": "52715a217dc51d0de15877878ab8213f6cbbbab5"
+  },
+  "../../prompt-to-nft/contracts/lib/infernet-sdk": {
+    "rev": "8e6cd6f5cbd66dc9baacb895a2ed8fe2c9ee3b6f"
+  },
+  "../../prompt-to-nft/contracts/lib/solmate": {
+    "rev": "c892309933b25c03d32b1b0d674df7ae292ba925"
+  },
+  "../../tgi-llm/contracts/lib/forge-std": {
+    "rev": "52715a217dc51d0de15877878ab8213f6cbbbab5"
+  },
+  "../../tgi-llm/contracts/lib/infernet-sdk": {
+    "rev": "8e6cd6f5cbd66dc9baacb895a2ed8fe2c9ee3b6f"
+  },
+  "../../torch-iris/contracts/lib/forge-std": {
+    "rev": "52715a217dc51d0de15877878ab8213f6cbbbab5"
+  },
+  "../../torch-iris/contracts/lib/infernet-sdk": {
+    "rev": "8e6cd6f5cbd66dc9baacb895a2ed8fe2c9ee3b6f"
+  },
+  "lib/forge-std": {
+    "rev": "52715a217dc51d0de15877878ab8213f6cbbbab5"
+  },
+  "lib/infernet-sdk": {
+    "tag": {
+      "name": "v1.1.0",
+      "rev": "b183dc3d757c6f9a4efa65f0fb6564153ede1361"
+    }
+  }
+}
